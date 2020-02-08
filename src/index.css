@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.first-q {
+  background-color: antiquewhite;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  font-size: 20px;
+  justify-content: space-evenly;
+  height: 100px;
+}
+.first-q input {
+  border-radius: 20px;
+  padding: 2px;
+  border: none;
+  width: min-content;
+  height: 25px;
+}
+.second-q {
+  background-color: antiquewhite;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  font-size: 20px;
+  justify-content: space-evenly;
+  height: 100px;
+}
+.second-q select {
+  border-radius: 20px;
+  padding: 2px;
+  border: none;
+  width: max-content;
+  height: 25px;
+}
+.third-q {
+  background-color: antiquewhite;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  font-size: 20px;
+  justify-content: space-evenly;
+  height: 100px;
+}
+.fourth-q {
+  background-color: antiquewhite;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  font-size: 20px;
+  justify-content: space-evenly;
+  height: 200px;
+}
+.fifth-q {
+  background-color: antiquewhite;
+  margin: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  font-size: 20px;
+  justify-content: space-evenly;
+}
+.check-box-inputs {
+  display: flex;
+  flex-direction: column;
+}
+.check-box-inputs div {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  width: max-content;
+  background-color: rgba(87, 165, 255, 0.534);
+  border-radius: 30px;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 3px;
+  padding: 10px;
+  height: max-content;
+}
+.q-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+.q-b div {
+  width: inherit;
+}
+.result-element {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  border-radius: 10px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  padding: 14px;
+}
+.results {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.results-board {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-element-header {
+  font-weight: bold;
+}
